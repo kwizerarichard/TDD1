@@ -1,7 +1,7 @@
 # Test First TDD cycle 1
 
 
-def test1():
+#def test1():
     #assert multiply(1, 1) == 1  # first test for TDD cycle 1 has failed.
 
 
@@ -13,7 +13,7 @@ def test1():
 
 # Test first TDD cycle2.
 # Test first TDD cycle2 test1.
-def test2():
+#def test2():
     #assert multiply(2, 2) == 4  # first test of cycle 2 failed.
 
 
@@ -22,9 +22,17 @@ def test2():
     #return a * b
 
 #Test first TDD cycle3.
-def test3():
-    assert multiply(3,3)==9 
+#def test3():
+    #assert multiply(3,3)==9 #TDD cycle3 test1 failed.
 
 #get test to pass by writing multiply function.
-def multiply(a, b):
+#def multiply(a, b):
+    #return a * b #TDD cycle3 test2 passed.
+
+#Test first TDD cycle4.
+def test():
+    assert multiply(4,4)==16 #TDD cycle4 test1 failed
+
+def multiply(a,b):#TDD cycle4 test2 passed.
     return a * b
+
