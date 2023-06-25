@@ -15,6 +15,10 @@ def multiply(a, b):
 def test():
     assert multiply(2,2)== 4 # first test of cycle 2 failed.
 
+#TDD cycle1 and cycle2 should pass the test.
+def multiply(a, b):
+    return a * b 
+
 
 
 
