@@ -23,5 +23,4 @@
 
 #Test first TDD cycle3.
 def test():
-    assert multiply(1,1)==9 # TDD cycle3 test1 failed.
-
+    assert multiply(3,3)==9 #TDD cycle3 test1 failed.
